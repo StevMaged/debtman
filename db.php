@@ -6,7 +6,7 @@ date_default_timezone_set('Africa/Cairo');
 $host     = getenv('MYSQLHOST') ?: 'mysql.railway.internal';
 $dbname   = getenv('MYSQLDATABASE') ?: 'railway';
 $username = getenv('MYSQLUSER') ?: 'root';
-$password = getenv('MYSQLPASSWORD');
+$password = getenv('MYSQLPASSWORD') ?: 'HDxorAylRxMzaBATNBpmCmUpHfxixKKA';
 $port     = getenv('MYSQLPORT') ?: '3306';
 
 try {
